@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/polygonos.dir/src/runtime.cpp.o -o polygonos 
+/usr/bin/c++ CMakeFiles/polygonos.dir/src/polygon.cpp.o -o polygonos 

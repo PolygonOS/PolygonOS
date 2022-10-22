@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/polygonos.dir/src/runtime.cpp.o"
-  "CMakeFiles/polygonos.dir/src/runtime.cpp.o.d"
+  "CMakeFiles/polygonos.dir/src/polygon.cpp.o"
+  "CMakeFiles/polygonos.dir/src/polygon.cpp.o.d"
   "polygonos"
   "polygonos.pdb"
 )

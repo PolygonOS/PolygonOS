@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/PolygonOS.dir/src/polygon.cpp.o CMakeFiles/PolygonOS.dir/src/libs.cpp.o -o PolygonOS 

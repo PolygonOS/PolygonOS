@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/PolygonOSBinary.dir/src/polygon.cpp.o CMakeFiles/PolygonOSBinary.dir/src/libs.cpp.o -o PolygonOSBinary 

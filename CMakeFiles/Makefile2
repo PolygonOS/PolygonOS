@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/czechian/code/PolygonOS/WORK_DIR
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/polygonos.dir/all
+all: CMakeFiles/PolygonOS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/polygonos.dir/clean
+clean: CMakeFiles/PolygonOS.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/polygonos.dir
+# Target rules for target CMakeFiles/PolygonOS.dir
 
 # All Build rule for target.
-CMakeFiles/polygonos.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygonos.dir/build.make CMakeFiles/polygonos.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygonos.dir/build.make CMakeFiles/polygonos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=1,2 "Built target polygonos"
-.PHONY : CMakeFiles/polygonos.dir/all
+CMakeFiles/PolygonOS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=1,2,3 "Built target PolygonOS"
+.PHONY : CMakeFiles/PolygonOS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/polygonos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/polygonos.dir/all
+CMakeFiles/PolygonOS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PolygonOS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles 0
-.PHONY : CMakeFiles/polygonos.dir/rule
+.PHONY : CMakeFiles/PolygonOS.dir/rule
 
 # Convenience name for target.
-polygonos: CMakeFiles/polygonos.dir/rule
-.PHONY : polygonos
+PolygonOS: CMakeFiles/PolygonOS.dir/rule
+.PHONY : PolygonOS
 
 # clean rule for target.
-CMakeFiles/polygonos.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polygonos.dir/build.make CMakeFiles/polygonos.dir/clean
-.PHONY : CMakeFiles/polygonos.dir/clean
+CMakeFiles/PolygonOS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/clean
+.PHONY : CMakeFiles/PolygonOS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

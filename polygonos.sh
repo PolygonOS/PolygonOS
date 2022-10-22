@@ -33,7 +33,7 @@ function clean() {
     rm cmake_install.cmake
     rm CMakeCache.txt
     rm Makefile
-    rm polygonos
+    rm PolygonOS
 }
 
 function build() {
@@ -41,10 +41,23 @@ function build() {
     make
 }
 
+function install(){
+  echo_red "Not done yet!"
+}
+
+function binstall(){
+  cmake .
+  make
+}
+
 function __main__() {
   local option="$1"
 
   case $option in
+  -bi | --binstall)
+    echo_yellow "Building AND Installing the project"
+    build
+    ;;
   -b | --build)
     echo_yellow "Building the project"
     build

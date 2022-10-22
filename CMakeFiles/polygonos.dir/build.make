@@ -69,28 +69,28 @@ include CMakeFiles/polygonos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/polygonos.dir/flags.make
 
-CMakeFiles/polygonos.dir/src/runtime.cpp.o: CMakeFiles/polygonos.dir/flags.make
-CMakeFiles/polygonos.dir/src/runtime.cpp.o: src/runtime.cpp
-CMakeFiles/polygonos.dir/src/runtime.cpp.o: CMakeFiles/polygonos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polygonos.dir/src/runtime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polygonos.dir/src/runtime.cpp.o -MF CMakeFiles/polygonos.dir/src/runtime.cpp.o.d -o CMakeFiles/polygonos.dir/src/runtime.cpp.o -c /home/czechian/code/PolygonOS/WORK_DIR/src/runtime.cpp
+CMakeFiles/polygonos.dir/src/polygon.cpp.o: CMakeFiles/polygonos.dir/flags.make
+CMakeFiles/polygonos.dir/src/polygon.cpp.o: src/polygon.cpp
+CMakeFiles/polygonos.dir/src/polygon.cpp.o: CMakeFiles/polygonos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polygonos.dir/src/polygon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/polygonos.dir/src/polygon.cpp.o -MF CMakeFiles/polygonos.dir/src/polygon.cpp.o.d -o CMakeFiles/polygonos.dir/src/polygon.cpp.o -c /home/czechian/code/PolygonOS/WORK_DIR/src/polygon.cpp
 
-CMakeFiles/polygonos.dir/src/runtime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polygonos.dir/src/runtime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czechian/code/PolygonOS/WORK_DIR/src/runtime.cpp > CMakeFiles/polygonos.dir/src/runtime.cpp.i
+CMakeFiles/polygonos.dir/src/polygon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polygonos.dir/src/polygon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/czechian/code/PolygonOS/WORK_DIR/src/polygon.cpp > CMakeFiles/polygonos.dir/src/polygon.cpp.i
 
-CMakeFiles/polygonos.dir/src/runtime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polygonos.dir/src/runtime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czechian/code/PolygonOS/WORK_DIR/src/runtime.cpp -o CMakeFiles/polygonos.dir/src/runtime.cpp.s
+CMakeFiles/polygonos.dir/src/polygon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polygonos.dir/src/polygon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/czechian/code/PolygonOS/WORK_DIR/src/polygon.cpp -o CMakeFiles/polygonos.dir/src/polygon.cpp.s
 
 # Object files for target polygonos
 polygonos_OBJECTS = \
-"CMakeFiles/polygonos.dir/src/runtime.cpp.o"
+"CMakeFiles/polygonos.dir/src/polygon.cpp.o"
 
 # External object files for target polygonos
 polygonos_EXTERNAL_OBJECTS =
 
-polygonos: CMakeFiles/polygonos.dir/src/runtime.cpp.o
+polygonos: CMakeFiles/polygonos.dir/src/polygon.cpp.o
 polygonos: CMakeFiles/polygonos.dir/build.make
 polygonos: CMakeFiles/polygonos.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable polygonos"

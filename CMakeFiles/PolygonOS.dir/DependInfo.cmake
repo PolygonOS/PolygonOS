@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/czechian/code/PolygonOS/WORK_DIR/src/polygon.cpp" "CMakeFiles/polygonos.dir/src/polygon.cpp.o" "gcc" "CMakeFiles/polygonos.dir/src/polygon.cpp.o.d"
+  "/home/czechian/code/PolygonOS/WORK_DIR/src/libs.cpp" "CMakeFiles/PolygonOS.dir/src/libs.cpp.o" "gcc" "CMakeFiles/PolygonOS.dir/src/libs.cpp.o.d"
+  "/home/czechian/code/PolygonOS/WORK_DIR/src/polygon.cpp" "CMakeFiles/PolygonOS.dir/src/polygon.cpp.o" "gcc" "CMakeFiles/PolygonOS.dir/src/polygon.cpp.o.d"
   )
 
 # Targets to which this target links.

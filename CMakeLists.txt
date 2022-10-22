@@ -1,9 +1,13 @@
-cmake_minimum_required(VERSION 3.24.2)  # CMake version check
-project(polygonos)               # Create project "simple_example"
-set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
+cmake_minimum_required(VERSION 3.5)
+project(PolygonOS)
 
-# Add main.cpp file of project root directory as source file
-set(SOURCE_FILES src/runtime.cpp)
+#GLOBING
+file(GLOB_RECURSE SOURCE_FILES src/*.cpp)
+add_executable(PolygonOS src/polygon.cpp ${SOURCE_FILES})
 
-# Add executable target with source files listed in SOURCE_FILES variable
-add_executable(polygonos ${SOURCE_FILES})
+#Target
+#add_executable(PolygonOS main.cpp src/dog.cpp src/operations.cpp)
+
+
+target_compile_features(PolygonOS PRIVATE cxx_std_20)
+target_include_directories(PolygonOS PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
