@@ -1,0 +1,11 @@
+git
+gnome-terminal
+gnome-keyring
+firefox
+discord
+nautilus
+lxappearance-gtk3
+nitrogen
+steam
+flameshot
+neovim

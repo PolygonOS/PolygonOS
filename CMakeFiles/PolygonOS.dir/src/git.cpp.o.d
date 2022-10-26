@@ -1,5 +1,5 @@
-CMakeFiles/PolygonOS.dir/src/polygon.cpp.o: \
- /home/czechian/code/PolygonOS/src/polygon.cpp /usr/include/stdc-predef.h \
+CMakeFiles/PolygonOS.dir/src/git.cpp.o: \
+ /home/czechian/code/PolygonOS/src/git.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/12.2.0/iostream \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -138,5 +138,4 @@ CMakeFiles/PolygonOS.dir/src/polygon.cpp.o: \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
- /home/czechian/code/PolygonOS/src/../includes/git.h \
- /home/czechian/code/PolygonOS/src/../includes/pm.h
+ /home/czechian/code/PolygonOS/src/../includes/git.h

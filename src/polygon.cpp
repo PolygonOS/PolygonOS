@@ -1,9 +1,13 @@
 #include <iostream>
-#include "../includes/libs.h"
+#include "../includes/git.h"
+#include "../includes/pm.h"
+
 using namespace std;
 
 int main()
-{
-    cout << "Hello, Wrld!" << endl;
-    libsbro();
+{    
+    
+    git();
+    return 0;
 }
+

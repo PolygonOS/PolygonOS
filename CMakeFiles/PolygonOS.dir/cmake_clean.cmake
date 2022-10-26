@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PolygonOS.dir/src/libs.cpp.o"
-  "CMakeFiles/PolygonOS.dir/src/libs.cpp.o.d"
+  "CMakeFiles/PolygonOS.dir/src/git.cpp.o"
+  "CMakeFiles/PolygonOS.dir/src/git.cpp.o.d"
+  "CMakeFiles/PolygonOS.dir/src/pm.cpp.o"
+  "CMakeFiles/PolygonOS.dir/src/pm.cpp.o.d"
   "CMakeFiles/PolygonOS.dir/src/polygon.cpp.o"
   "CMakeFiles/PolygonOS.dir/src/polygon.cpp.o.d"
   "PolygonOS"

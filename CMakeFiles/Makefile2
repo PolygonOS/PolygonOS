@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/czechian/code/PolygonOS/WORK_DIR
+CMAKE_SOURCE_DIR = /home/czechian/code/PolygonOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/czechian/code/PolygonOS/WORK_DIR
+CMAKE_BINARY_DIR = /home/czechian/code/PolygonOS
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/PolygonOS.dir/clean
 CMakeFiles/PolygonOS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles --progress-num=1,2,3 "Built target PolygonOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/czechian/code/PolygonOS/CMakeFiles --progress-num=1,2,3,4 "Built target PolygonOS"
 .PHONY : CMakeFiles/PolygonOS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PolygonOS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PolygonOS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/WORK_DIR/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/CMakeFiles 0
 .PHONY : CMakeFiles/PolygonOS.dir/rule
 
 # Convenience name for target.
