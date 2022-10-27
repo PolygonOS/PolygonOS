@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../includes/pm.h"
+#include "../includes/pacman.h"
 using namespace std;
 
 int x = 0;
