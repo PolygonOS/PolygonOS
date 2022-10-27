@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/PolygonOS.dir/src/polygon.cpp.o CMakeFiles/PolygonOS.dir/src/git.cpp.o CMakeFiles/PolygonOS.dir/src/pm.cpp.o -o PolygonOS 
+/usr/bin/c++ CMakeFiles/PolygonOS.dir/src/polygon.cpp.o CMakeFiles/PolygonOS.dir/src/git.cpp.o CMakeFiles/PolygonOS.dir/src/pacman.cpp.o -o PolygonOS 

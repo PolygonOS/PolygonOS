@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/czechian/code/PolygonOS/include
+CXX_INCLUDES = -I/home/czechian/PolygonOS/include
 
 CXX_FLAGS = -std=gnu++20
 

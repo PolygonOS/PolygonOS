@@ -1,5 +1,5 @@
-CMakeFiles/PolygonOS.dir/src/git.cpp.o: \
- /home/czechian/PolygonOS/src/git.cpp /usr/include/stdc-predef.h \
+CMakeFiles/PolygonOS.dir/src/pacman.cpp.o: \
+ /home/czechian/PolygonOS/src/pacman.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/12.2.0/iostream \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -138,8 +138,4 @@ CMakeFiles/PolygonOS.dir/src/git.cpp.o: \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc /usr/include/c++/12.2.0/istream \
  /usr/include/c++/12.2.0/bits/istream.tcc \
- /home/czechian/PolygonOS/src/../includes/git.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h
+ /home/czechian/PolygonOS/src/../includes/pacman.h

@@ -34,6 +34,9 @@ function clean() {
     rm CMakeCache.txt
     rm Makefile
     rm PolygonOS
+    rm ttf-font-awesome-4 -rf
+    rm Nordic -rf
+    rm NordArc -rf
 }
 
 function build() {

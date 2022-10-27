@@ -3,13 +3,13 @@
 using namespace std;
 
 int x = 0;
-string prefetch[11] = {"git", "gnome-terminal", "gnome-keyring", "firefox", "discord", "nautilus", "lxappearance-gtk3", "nitrogen", "steam", "flameshot", "neovim"};
+string prefetch[12] = {"git", "gnome-terminal", "gnome-keyring", "firefox", "discord", "nautilus", "lxappearance-gtk3", "nitrogen", "steam", "flameshot", "neovim", "gedit"};
 string pacman="yes | LC_ALL=en_US.UTF-8 sudo pacman -S ";
 string fetch;
 
 int pm() 
 {
-    while (x < 11) {
+    while (x < 12) {
         cout << "Please enter root password to continue!" << endl;
         fetch = pacman + prefetch[x];
         cout << fetch << endl;

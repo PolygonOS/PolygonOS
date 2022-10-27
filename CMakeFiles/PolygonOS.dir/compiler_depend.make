@@ -191,9 +191,17 @@ CMakeFiles/PolygonOS.dir/src/git.cpp.o: src/git.cpp \
   /usr/include/c++/12.2.0/bits/ostream.tcc \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
-  includes/git.h
+  includes/git.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h
 
-CMakeFiles/PolygonOS.dir/src/pm.cpp.o: src/pm.cpp \
+CMakeFiles/PolygonOS.dir/src/pacman.cpp.o: src/pacman.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/12.2.0/iostream \
   /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -383,7 +391,7 @@ CMakeFiles/PolygonOS.dir/src/pm.cpp.o: src/pm.cpp \
   /usr/include/c++/12.2.0/bits/ostream.tcc \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
-  includes/pm.h
+  includes/pacman.h
 
 CMakeFiles/PolygonOS.dir/src/polygon.cpp.o: src/polygon.cpp \
   /usr/include/stdc-predef.h \
@@ -576,12 +584,22 @@ CMakeFiles/PolygonOS.dir/src/polygon.cpp.o: src/polygon.cpp \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
   includes/git.h \
-  includes/pm.h
+  includes/pacman.h
 
 
-includes/pm.h:
+src/pacman.cpp:
 
-src/pm.cpp:
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/unistd.h:
 
 /usr/include/c++/12.2.0/bits/istream.tcc:
 
@@ -598,6 +616,8 @@ src/pm.cpp:
 /usr/include/c++/12.2.0/streambuf:
 
 /usr/include/c++/12.2.0/stdexcept:
+
+includes/pacman.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -672,6 +692,8 @@ src/pm.cpp:
 /usr/include/c++/12.2.0/type_traits:
 
 /usr/include/c++/12.2.0/bits/move.h:
+
+/usr/include/linux/close_range.h:
 
 /usr/include/bits/stdint-intn.h:
 
@@ -900,6 +922,8 @@ includes/git.h:
 /usr/include/c++/12.2.0/bits/allocator.h:
 
 /usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/posix_opt.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h:
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/czechian/code/PolygonOS
+CMAKE_SOURCE_DIR = /home/czechian/PolygonOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/czechian/code/PolygonOS
+CMAKE_BINARY_DIR = /home/czechian/PolygonOS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/CMakeFiles /home/czechian/code/PolygonOS//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/PolygonOS/CMakeFiles /home/czechian/PolygonOS//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/code/PolygonOS/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/czechian/PolygonOS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,29 +153,29 @@ src/git.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/git.cpp.s
 .PHONY : src/git.cpp.s
 
-src/pm.o: src/pm.cpp.o
-.PHONY : src/pm.o
+src/pacman.o: src/pacman.cpp.o
+.PHONY : src/pacman.o
 
 # target to build an object file
-src/pm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pm.cpp.o
-.PHONY : src/pm.cpp.o
+src/pacman.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pacman.cpp.o
+.PHONY : src/pacman.cpp.o
 
-src/pm.i: src/pm.cpp.i
-.PHONY : src/pm.i
+src/pacman.i: src/pacman.cpp.i
+.PHONY : src/pacman.i
 
 # target to preprocess a source file
-src/pm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pm.cpp.i
-.PHONY : src/pm.cpp.i
+src/pacman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pacman.cpp.i
+.PHONY : src/pacman.cpp.i
 
-src/pm.s: src/pm.cpp.s
-.PHONY : src/pm.s
+src/pacman.s: src/pacman.cpp.s
+.PHONY : src/pacman.s
 
 # target to generate assembly for a file
-src/pm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pm.cpp.s
-.PHONY : src/pm.cpp.s
+src/pacman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolygonOS.dir/build.make CMakeFiles/PolygonOS.dir/src/pacman.cpp.s
+.PHONY : src/pacman.cpp.s
 
 src/polygon.o: src/polygon.cpp.o
 .PHONY : src/polygon.o
@@ -213,9 +213,9 @@ help:
 	@echo "... src/git.o"
 	@echo "... src/git.i"
 	@echo "... src/git.s"
-	@echo "... src/pm.o"
-	@echo "... src/pm.i"
-	@echo "... src/pm.s"
+	@echo "... src/pacman.o"
+	@echo "... src/pacman.i"
+	@echo "... src/pacman.s"
 	@echo "... src/polygon.o"
 	@echo "... src/polygon.i"
 	@echo "... src/polygon.s"
