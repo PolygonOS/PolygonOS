@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {    
-    pacman();
+    pm();
     git();
     return 0;
 }

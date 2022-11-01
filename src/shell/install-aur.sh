@@ -2,10 +2,10 @@
 
 # fix missing characters in bar
 git clone https://aur.archlinux.org/ttf-font-awesome-4.git
-cd 'ttf-font-awesome-4'
+cd ttf-font-awesome-4/
 makepkg -si
 cd ..
-rm 'ttf-font-awesome-4' -rf
+rm ttf-font-awesome-4/ -rf
 
 #install gtk3 theme
 git clone https://github.com/robertovernina/NordArc/
